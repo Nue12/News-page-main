@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-5xl;
+    @apply font-extrabold;
+  }
+  h2 {
+    @apply text-4xl;
+    @apply font-bold;
+  }
+  h3 {
+    @apply text-3xl;
+    @apply font-bold;
+  }
+  h4 {
+    @apply text-xl;
+    @apply font-bold;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+:root {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: hsl(233, 8%, 79%);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 40px 80px;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button {
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 1270px) {
+  body {
+    margin: 30px 15px;
+  }
+}
