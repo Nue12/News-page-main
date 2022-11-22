@@ -15,7 +15,7 @@ export default function NewsSection() {
                 to put the power of the platforms back into the hands 
                 of the people.But is it really fulfilling its promise?
             </p>
-            <button className='bg-text-softRed text-offWhite py-3 px-8 button mt-5 mb-10 xl:mb-0 hover:bg-darkBlue transition-colors ease-in delay-75'>READ MORE</button>
+            <button className='hover:bg-darkBlue bg-text-softRed text-offWhite py-3 px-8 button mt-5 mb-10 transition-colors ease-in delay-75 cursor-pointer xl:mb-0'>READ MORE</button>
           </div>
         </div>
     </section>

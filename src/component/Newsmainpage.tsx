@@ -18,12 +18,12 @@ export default function Newsmainpage() {
     <main>
         <nav className='flex justify-between mb-10 items-center'>
             <img src={Logo} alt='logo' className=''/>
-            <img src={MenuOpen} alt='menuOpen' className={`z-50 xl:hidden ${menu ? 'hidden' : 'block'}`} onClick={()=> toggleMenu()}/>
+            <img src={MenuOpen} alt='menuOpen' className={`z-50 xl:hidden cursor-pointer ${menu ? 'hidden' : 'block'}`} onClick={()=> toggleMenu()}/>
             <Navipage 
               menu={menu}
               toggleMenu={toggleMenu}
             />
-            <div className={`absolute inset-0 z-10 ${menu && 'opacity-60 bg-gray-600'}`}></div>
+            <div className={`absolute hidden inset-0 z-10 ${menu && 'opacity-60 bg-gray-600 block'}`}></div>
         </nav>
         <section className='xl:flex xl:space-x-10'>
           <NewsSection />

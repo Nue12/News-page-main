@@ -7,7 +7,7 @@ export default function SideNews() {
             <h2 className='text-text-softOrange'>New</h2>
             <div className='divide-y'>
                 <div className='mb-6'>
-                    <h4 className='text-offWhite mb-3 mt-6 hover:text-text-softOrange cursor-pointer'>Hydrogen Vs Electric Cars</h4>
+                    <h4 className='text-offWhite hover:text-text-softOrange mb-3 mt-6  cursor-pointer'>Hydrogen Vs Electric Cars</h4>
                     <p>
                         Will hydrogen-fueled cars ever catch up to EVs?
                     </p>
